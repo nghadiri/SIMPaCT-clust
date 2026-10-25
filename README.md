@@ -1,10 +1,25 @@
-# SIMPaCT: Sensor Data Optimisation for Smart Irrigation
+# SIMPaCT-clust: Sensor Data Optimisation for Smart Irrigation
 
 Code for reducing the sensor burden of a large smart-irrigation system, using **time-series clustering** to stand in for missing or redundant soil-moisture sensors and **robotic sequential sampling** to cut the number of fixed sensors.
 
 **SIMPaCT (Smart Irrigation Management for Parks and Cool Towns)** is a research project, started in 2021, that irrigates Bicentennial Park in Sydney Olympic Park so as to get the most transpiration cooling from the least water. Its machine-learning and digital-twin models are only as good as the sensor data they receive, and a network of 200+ soil-moisture sensors will always have failures and maintenance costs. This repository holds the notebooks used to study two ways of easing that problem on real SIMPaCT data.
 
 > Project site: [simpact-australia.com](https://www.simpact-australia.com/)
+
+## About SIMPaCT
+
+**SIMPaCT (Smart Irrigation Management for Parks and Cool Towns)** is a smart green infrastructure and IoT project at Bicentennial Park in Sydney Olympic Park, New South Wales.
+
+| | |
+|---|---|
+| **Location** | Bicentennial Park, Sydney Olympic Park, New South Wales |
+| **Lead authority** | Sydney Olympic Park Authority |
+| **Collaborators and partners** | Sydney Water, Western Sydney University, University of Technology Sydney (UTS Institute for Sustainable Futures), Monash University |
+| **Technology** | Environmental sensors (soil moisture, air temperature), AI and local weather data, used to optimise recycled-water irrigation, cool microclimates and mitigate the Urban Heat Island effect |
+| **Visitor feature** | The park is publicly accessible; visitors can check cooler zones through mobile tools, and authorities can track plant hydration and system performance |
+| **Awards** | Winner of the national IoTAA 2023 Research Award and the IoT for Good Award |
+
+This repository covers one part of that system: making the sensor network that feeds its irrigation models cheaper to run and more robust to failure.
 
 ## Why it is different
 

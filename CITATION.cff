@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the paper below."
-title: "SIMPaCT: Sensor Data Optimisation for Smart Irrigation"
-repository-code: "https://github.com/nghadiri/simpact-clust"
+title: "SIMPaCT-clust: Sensor Data Optimisation for Smart Irrigation"
+repository-code: "https://github.com/nghadiri/SIMPaCT-clust"
 authors:
   - family-names: Ghadiri
     given-names: Nasser
