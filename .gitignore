@@ -162,3 +162,6 @@ cython_debug/
 #.idea/
 .venv/
 .vscode/
+# macOS and copyrighted PDFs (publisher copyright: keep papers out of the repo)
+.DS_Store
+*.pdf

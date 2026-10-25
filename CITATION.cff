@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "SIMPaCT-clust: Sensor Data Optimisation for Smart Irrigation"
+repository-code: "https://github.com/nghadiri/SIMPaCT-clust"
+authors:
+  - family-names: Ghadiri
+    given-names: Nasser
+  - family-names: Javadi
+    given-names: Bahman
+  - family-names: Obst
+    given-names: Oliver
+  - family-names: Pfautsch
+    given-names: Sebastian
+preferred-citation:
+  type: conference-paper
+  title: "Data Optimisation of Machine Learning Models for Smart Irrigation in Urban Parks"
+  authors:
+    - family-names: Ghadiri
+      given-names: Nasser
+    - family-names: Javadi
+      given-names: Bahman
+    - family-names: Obst
+      given-names: Oliver
+    - family-names: Pfautsch
+      given-names: Sebastian
+  collection-title: "2024 International Conference on Ubiquitous Computing and Communications (IUCC)"
+  publisher:
+    name: IEEE
+  start: 70
+  end: 77
+  year: 2024
+  doi: "10.1109/IUCC65928.2024.00012"
+license: GPL-3.0-only
